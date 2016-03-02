@@ -1,0 +1,14 @@
+PODS:
+  - FLKAutoLayoutSwift (0.1.0)
+
+DEPENDENCIES:
+  - FLKAutoLayoutSwift (from `../`)
+
+EXTERNAL SOURCES:
+  FLKAutoLayoutSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FLKAutoLayoutSwift: 55840db6c357a3f71bfb25e028b8b18bfde8f31c
+
+COCOAPODS: 0.39.0

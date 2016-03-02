@@ -1,0 +1,6 @@
+framework module Pods_FLKAutoLayoutSwift_Tests {
+  umbrella header "Pods-FLKAutoLayoutSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

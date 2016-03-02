@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307498F56E109A6EAAFAAF6BDE972C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		34F6D6A6BF142F5CFD7D16DE015A0D46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		63F11252775F8E74304E0D7517E1E753 /* Pods-FLKAutoLayoutSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ADCC654593C7C3A05984DE3267A21 /* Pods-FLKAutoLayoutSwift_Tests-dummy.m */; };
+		6DA9D637B41863A3FBCB1B468FA6B53B /* Pods-FLKAutoLayoutSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F6AE9D318D9FC30CB7F4BABABF9DA8 /* Pods-FLKAutoLayoutSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E343B3C598D27FB33596A8657DA0D82 /* FLKAutoLayoutSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2A60B6373A791FDB56EDF326F68FCAB /* FLKAutoLayoutSwift.bundle */; };
+		7BF00258E167C3799BDA24664B722A3E /* FLKAutoLayoutSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D34DB8511E7768F03C6B3B98DD3D3BFE /* FLKAutoLayoutSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A20863875FF2D7C92CD4D67F4F9677C6 /* Pods-FLKAutoLayoutSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA5E39E4BACBC5692D317410CD70D50 /* Pods-FLKAutoLayoutSwift_Example-dummy.m */; };
+		A3F812429689794B998B30F83023140D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5696489A575C0F1B61225D968EF3AED /* ReplaceMe.swift */; };
+		C711D38A607642E5725050C0F7A6B09B /* FLKAutoLayoutSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB972F3C0D1667D6D52605914808808D /* FLKAutoLayoutSwift-dummy.m */; };
+		DA5B43796F6525B5565E71BF333FEE59 /* Pods-FLKAutoLayoutSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D812C3DDF7AA01F7A92AEF52CEB25393 /* Pods-FLKAutoLayoutSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E997B48028FF279870B7BADDD31562FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF227766440E62AA91367C896646E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD33D3A58FBF244837A581D467220B1;
+			remoteInfo = FLKAutoLayoutSwift;
+		};
+		89B87D6B86F4B45475D0EE499872BD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F981CEC65B55B18161B5408E9509353;
+			remoteInfo = "FLKAutoLayoutSwift-FLKAutoLayoutSwift";
+		};
+		F85AE7B0734DF91DEE95E558E5927D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD33D3A58FBF244837A581D467220B1;
+			remoteInfo = FLKAutoLayoutSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EF4F0DC6B2540B6CEE66BD7E61D28DE /* Pods-FLKAutoLayoutSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLKAutoLayoutSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3405AEEE68C59047C099BC8044DEEE77 /* Pods-FLKAutoLayoutSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLKAutoLayoutSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		383F4A803511943A267A338952D09462 /* Pods_FLKAutoLayoutSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLKAutoLayoutSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4FF7517946CFA0384A323E1988FEBAB8 /* Pods-FLKAutoLayoutSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLKAutoLayoutSwift_Example-resources.sh"; sourceTree = "<group>"; };
+		54819EDB3FB1C705F3550825D049D3A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C684261CAC20E1C3372B3D93A25D000 /* Pods-FLKAutoLayoutSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLKAutoLayoutSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6D625DD7CF870C67AD7CDF2904A4BBBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F27D6EDAB959CBFCEA5488E829F1DF6 /* FLKAutoLayoutSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayoutSwift-prefix.pch"; sourceTree = "<group>"; };
+		7363A17968191C542BE5B22CAB40CAE9 /* FLKAutoLayoutSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayoutSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6CF4A5C72EBA558B28D0997192A718 /* FLKAutoLayoutSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayoutSwift.xcconfig; sourceTree = "<group>"; };
+		806ADCC654593C7C3A05984DE3267A21 /* Pods-FLKAutoLayoutSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLKAutoLayoutSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		935FDF34DB38623F68ADD4ADFCDE9AF3 /* FLKAutoLayoutSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLKAutoLayoutSwift.modulemap; sourceTree = "<group>"; };
+		A047E8B46C2E677F2F4D73070AABC88A /* Pods-FLKAutoLayoutSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLKAutoLayoutSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A25A398D567DFC12B7D86B68C50446F4 /* Pods-FLKAutoLayoutSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLKAutoLayoutSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A79E52671728323D137DCA84550A2BBB /* Pods-FLKAutoLayoutSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLKAutoLayoutSwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		B2A60B6373A791FDB56EDF326F68FCAB /* FLKAutoLayoutSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLKAutoLayoutSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEE61030FACFE3909EBEC77C13C64FA2 /* Pods-FLKAutoLayoutSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLKAutoLayoutSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C57F06EAB37573DB9C7012D1DA8C90A7 /* Pods-FLKAutoLayoutSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLKAutoLayoutSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		C618F4C51D853694BCCF642F71B73024 /* Pods-FLKAutoLayoutSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLKAutoLayoutSwift_Example.modulemap"; sourceTree = "<group>"; };
+		C6643F5512DE5169A8E6EB65B2113970 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8C8112B12FFAABE75E7E257CAC6209 /* Pods-FLKAutoLayoutSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLKAutoLayoutSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D34DB8511E7768F03C6B3B98DD3D3BFE /* FLKAutoLayoutSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayoutSwift-umbrella.h"; sourceTree = "<group>"; };
+		D4F6AE9D318D9FC30CB7F4BABABF9DA8 /* Pods-FLKAutoLayoutSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLKAutoLayoutSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5AC00AAE340BBC1F9794D90C7927021 /* Pods-FLKAutoLayoutSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLKAutoLayoutSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D812C3DDF7AA01F7A92AEF52CEB25393 /* Pods-FLKAutoLayoutSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLKAutoLayoutSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		D9B8C2F1BA536EEF5CB9AEB816651830 /* Pods-FLKAutoLayoutSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLKAutoLayoutSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF17BFB7A79E999923B394E0653A3B73 /* Pods_FLKAutoLayoutSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLKAutoLayoutSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5696489A575C0F1B61225D968EF3AED /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		EAF6DB09216C988BB5893ECEA19B0099 /* Pods-FLKAutoLayoutSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLKAutoLayoutSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EB972F3C0D1667D6D52605914808808D /* FLKAutoLayoutSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayoutSwift-dummy.m"; sourceTree = "<group>"; };
+		FEA5E39E4BACBC5692D317410CD70D50 /* Pods-FLKAutoLayoutSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLKAutoLayoutSwift_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E36E36C3AAFA532C728E5799DAAE513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307498F56E109A6EAAFAAF6BDE972C9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722E9FD68956DE26C6A48BC1A49E2F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F6D6A6BF142F5CFD7D16DE015A0D46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE1A33974A0383B50A843E7E0D22DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B630C7410794E277E6654714C65F894F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E997B48028FF279870B7BADDD31562FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B992F92254AC28CE4C8AACFF197636 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				597E0DB5DFFDB72087EA6C45F2AE766B /* Pods-FLKAutoLayoutSwift_Example */,
+				69486C3AEB7A7142ED462E9A708808DB /* Pods-FLKAutoLayoutSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		597E0DB5DFFDB72087EA6C45F2AE766B /* Pods-FLKAutoLayoutSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				54819EDB3FB1C705F3550825D049D3A7 /* Info.plist */,
+				C618F4C51D853694BCCF642F71B73024 /* Pods-FLKAutoLayoutSwift_Example.modulemap */,
+				1EF4F0DC6B2540B6CEE66BD7E61D28DE /* Pods-FLKAutoLayoutSwift_Example-acknowledgements.markdown */,
+				A047E8B46C2E677F2F4D73070AABC88A /* Pods-FLKAutoLayoutSwift_Example-acknowledgements.plist */,
+				FEA5E39E4BACBC5692D317410CD70D50 /* Pods-FLKAutoLayoutSwift_Example-dummy.m */,
+				EAF6DB09216C988BB5893ECEA19B0099 /* Pods-FLKAutoLayoutSwift_Example-frameworks.sh */,
+				4FF7517946CFA0384A323E1988FEBAB8 /* Pods-FLKAutoLayoutSwift_Example-resources.sh */,
+				D812C3DDF7AA01F7A92AEF52CEB25393 /* Pods-FLKAutoLayoutSwift_Example-umbrella.h */,
+				5C684261CAC20E1C3372B3D93A25D000 /* Pods-FLKAutoLayoutSwift_Example.debug.xcconfig */,
+				CC8C8112B12FFAABE75E7E257CAC6209 /* Pods-FLKAutoLayoutSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-FLKAutoLayoutSwift_Example";
+			path = "Target Support Files/Pods-FLKAutoLayoutSwift_Example";
+			sourceTree = "<group>";
+		};
+		69486C3AEB7A7142ED462E9A708808DB /* Pods-FLKAutoLayoutSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6643F5512DE5169A8E6EB65B2113970 /* Info.plist */,
+				C57F06EAB37573DB9C7012D1DA8C90A7 /* Pods-FLKAutoLayoutSwift_Tests.modulemap */,
+				A25A398D567DFC12B7D86B68C50446F4 /* Pods-FLKAutoLayoutSwift_Tests-acknowledgements.markdown */,
+				BEE61030FACFE3909EBEC77C13C64FA2 /* Pods-FLKAutoLayoutSwift_Tests-acknowledgements.plist */,
+				806ADCC654593C7C3A05984DE3267A21 /* Pods-FLKAutoLayoutSwift_Tests-dummy.m */,
+				D5AC00AAE340BBC1F9794D90C7927021 /* Pods-FLKAutoLayoutSwift_Tests-frameworks.sh */,
+				A79E52671728323D137DCA84550A2BBB /* Pods-FLKAutoLayoutSwift_Tests-resources.sh */,
+				D4F6AE9D318D9FC30CB7F4BABABF9DA8 /* Pods-FLKAutoLayoutSwift_Tests-umbrella.h */,
+				3405AEEE68C59047C099BC8044DEEE77 /* Pods-FLKAutoLayoutSwift_Tests.debug.xcconfig */,
+				D9B8C2F1BA536EEF5CB9AEB816651830 /* Pods-FLKAutoLayoutSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-FLKAutoLayoutSwift_Tests";
+			path = "Target Support Files/Pods-FLKAutoLayoutSwift_Tests";
+			sourceTree = "<group>";
+		};
+		6D94921EE9617BE23ACABE929B84F72F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8ADB50728E8120ED6D36D99531CBA54 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				ED6D69920C60AC0BBA3D80F7387F2FBB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AEEB73FA1806965A80A6C068EC4FF133 /* Products */,
+				16B992F92254AC28CE4C8AACFF197636 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEB73FA1806965A80A6C068EC4FF133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A60B6373A791FDB56EDF326F68FCAB /* FLKAutoLayoutSwift.bundle */,
+				7363A17968191C542BE5B22CAB40CAE9 /* FLKAutoLayoutSwift.framework */,
+				DF17BFB7A79E999923B394E0653A3B73 /* Pods_FLKAutoLayoutSwift_Example.framework */,
+				383F4A803511943A267A338952D09462 /* Pods_FLKAutoLayoutSwift_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D54AB7B169A65E76412EF23FA1B510BD /* FLKAutoLayoutSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6D94921EE9617BE23ACABE929B84F72F /* Pod */,
+				DA328CB1E51099B8B25F6C73322C20F5 /* Support Files */,
+			);
+			name = FLKAutoLayoutSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D8ADB50728E8120ED6D36D99531CBA54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5696489A575C0F1B61225D968EF3AED /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA328CB1E51099B8B25F6C73322C20F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				935FDF34DB38623F68ADD4ADFCDE9AF3 /* FLKAutoLayoutSwift.modulemap */,
+				7A6CF4A5C72EBA558B28D0997192A718 /* FLKAutoLayoutSwift.xcconfig */,
+				EB972F3C0D1667D6D52605914808808D /* FLKAutoLayoutSwift-dummy.m */,
+				6F27D6EDAB959CBFCEA5488E829F1DF6 /* FLKAutoLayoutSwift-prefix.pch */,
+				D34DB8511E7768F03C6B3B98DD3D3BFE /* FLKAutoLayoutSwift-umbrella.h */,
+				6D625DD7CF870C67AD7CDF2904A4BBBE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLKAutoLayoutSwift";
+			sourceTree = "<group>";
+		};
+		ED6D69920C60AC0BBA3D80F7387F2FBB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D54AB7B169A65E76412EF23FA1B510BD /* FLKAutoLayoutSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		388F094667A1D41DD3291D97EF4F0547 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA9D637B41863A3FBCB1B468FA6B53B /* Pods-FLKAutoLayoutSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904BC14163E391C5F6DFE8EF2E537E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF00258E167C3799BDA24664B722A3E /* FLKAutoLayoutSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D886FD605F5AE5BB44A3AF1F6A5C1309 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5B43796F6525B5565E71BF333FEE59 /* Pods-FLKAutoLayoutSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57D116F63BAF6363D191D8C443966AEA /* Pods-FLKAutoLayoutSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1911F6763C2A16C9A9365C7201194069 /* Build configuration list for PBXNativeTarget "Pods-FLKAutoLayoutSwift_Example" */;
+			buildPhases = (
+				71D66B103096F180C304F54875DE8A06 /* Sources */,
+				722E9FD68956DE26C6A48BC1A49E2F95 /* Frameworks */,
+				D886FD605F5AE5BB44A3AF1F6A5C1309 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2F934C5AE2610E2C8EAB4B0593F8DE /* PBXTargetDependency */,
+			);
+			name = "Pods-FLKAutoLayoutSwift_Example";
+			productName = "Pods-FLKAutoLayoutSwift_Example";
+			productReference = DF17BFB7A79E999923B394E0653A3B73 /* Pods_FLKAutoLayoutSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F981CEC65B55B18161B5408E9509353 /* FLKAutoLayoutSwift-FLKAutoLayoutSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28619B4F6544249F8CEF00A669F1D64 /* Build configuration list for PBXNativeTarget "FLKAutoLayoutSwift-FLKAutoLayoutSwift" */;
+			buildPhases = (
+				C7903F2FD6B87F03989F3F439422DA8B /* Sources */,
+				AADE1A33974A0383B50A843E7E0D22DE /* Frameworks */,
+				2DA13E04B56BED429C5EA81AF6C9E900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLKAutoLayoutSwift-FLKAutoLayoutSwift";
+			productName = "FLKAutoLayoutSwift-FLKAutoLayoutSwift";
+			productReference = B2A60B6373A791FDB56EDF326F68FCAB /* FLKAutoLayoutSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9FFA45106B0335DC11FD62640EBA996B /* Pods-FLKAutoLayoutSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2DD7781AB8ADC15F157643216D48AF /* Build configuration list for PBXNativeTarget "Pods-FLKAutoLayoutSwift_Tests" */;
+			buildPhases = (
+				3698E58745A0C91962BAEBEC00405E82 /* Sources */,
+				5E36E36C3AAFA532C728E5799DAAE513 /* Frameworks */,
+				388F094667A1D41DD3291D97EF4F0547 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BFDA9D5D7F87C6B6C08B3BEB4A2D91 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLKAutoLayoutSwift_Tests";
+			productName = "Pods-FLKAutoLayoutSwift_Tests";
+			productReference = 383F4A803511943A267A338952D09462 /* Pods_FLKAutoLayoutSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAD33D3A58FBF244837A581D467220B1 /* FLKAutoLayoutSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9C87D8D9421B31DFF13B02436FD201 /* Build configuration list for PBXNativeTarget "FLKAutoLayoutSwift" */;
+			buildPhases = (
+				0E576ABF6A0DF17D551B7175838478A3 /* Sources */,
+				B630C7410794E277E6654714C65F894F /* Frameworks */,
+				059D3C11AA45A35BC9B99D2E7AACF530 /* Resources */,
+				C904BC14163E391C5F6DFE8EF2E537E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BC5BE25DF8949DAB66A4149BE34DA9 /* PBXTargetDependency */,
+			);
+			name = FLKAutoLayoutSwift;
+			productName = FLKAutoLayoutSwift;
+			productReference = 7363A17968191C542BE5B22CAB40CAE9 /* FLKAutoLayoutSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AEEB73FA1806965A80A6C068EC4FF133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD33D3A58FBF244837A581D467220B1 /* FLKAutoLayoutSwift */,
+				7F981CEC65B55B18161B5408E9509353 /* FLKAutoLayoutSwift-FLKAutoLayoutSwift */,
+				57D116F63BAF6363D191D8C443966AEA /* Pods-FLKAutoLayoutSwift_Example */,
+				9FFA45106B0335DC11FD62640EBA996B /* Pods-FLKAutoLayoutSwift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		059D3C11AA45A35BC9B99D2E7AACF530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E343B3C598D27FB33596A8657DA0D82 /* FLKAutoLayoutSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA13E04B56BED429C5EA81AF6C9E900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E576ABF6A0DF17D551B7175838478A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C711D38A607642E5725050C0F7A6B09B /* FLKAutoLayoutSwift-dummy.m in Sources */,
+				A3F812429689794B998B30F83023140D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3698E58745A0C91962BAEBEC00405E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F11252775F8E74304E0D7517E1E753 /* Pods-FLKAutoLayoutSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D66B103096F180C304F54875DE8A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20863875FF2D7C92CD4D67F4F9677C6 /* Pods-FLKAutoLayoutSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7903F2FD6B87F03989F3F439422DA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E2F934C5AE2610E2C8EAB4B0593F8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayoutSwift;
+			target = FAD33D3A58FBF244837A581D467220B1 /* FLKAutoLayoutSwift */;
+			targetProxy = F85AE7B0734DF91DEE95E558E5927D06 /* PBXContainerItemProxy */;
+		};
+		47BFDA9D5D7F87C6B6C08B3BEB4A2D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayoutSwift;
+			target = FAD33D3A58FBF244837A581D467220B1 /* FLKAutoLayoutSwift */;
+			targetProxy = 0DF227766440E62AA91367C896646E59 /* PBXContainerItemProxy */;
+		};
+		86BC5BE25DF8949DAB66A4149BE34DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FLKAutoLayoutSwift-FLKAutoLayoutSwift";
+			target = 7F981CEC65B55B18161B5408E9509353 /* FLKAutoLayoutSwift-FLKAutoLayoutSwift */;
+			targetProxy = 89B87D6B86F4B45475D0EE499872BD86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048139BC8CD9F5C440D222D55245CDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8C8112B12FFAABE75E7E257CAC6209 /* Pods-FLKAutoLayoutSwift_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Example/Pods-FLKAutoLayoutSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FLKAutoLayoutSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F79E58CF41998D619AA5CC34E7F90F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6CF4A5C72EBA558B28D0997192A718 /* FLKAutoLayoutSwift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FLKAutoLayoutSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9414F96D547CF98F34111B7CADC247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3405AEEE68C59047C099BC8044DEEE77 /* Pods-FLKAutoLayoutSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Tests/Pods-FLKAutoLayoutSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FLKAutoLayoutSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45933474A60E1822B326E3D545B05EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6CF4A5C72EBA558B28D0997192A718 /* FLKAutoLayoutSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayoutSwift/FLKAutoLayoutSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayoutSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayoutSwift/FLKAutoLayoutSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLKAutoLayoutSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		600029D42A30353C2665F97A5945803C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B8C2F1BA536EEF5CB9AEB816651830 /* Pods-FLKAutoLayoutSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Tests/Pods-FLKAutoLayoutSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FLKAutoLayoutSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		716A3A4FC0D1EF0852E8D74843FA56FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6CF4A5C72EBA558B28D0997192A718 /* FLKAutoLayoutSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayoutSwift/FLKAutoLayoutSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayoutSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayoutSwift/FLKAutoLayoutSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLKAutoLayoutSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EBB389D509F40DFFE5EB4B299477CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C684261CAC20E1C3372B3D93A25D000 /* Pods-FLKAutoLayoutSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLKAutoLayoutSwift_Example/Pods-FLKAutoLayoutSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FLKAutoLayoutSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5A75417DA9C7CE6A9F071B54C69717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6CF4A5C72EBA558B28D0997192A718 /* FLKAutoLayoutSwift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FLKAutoLayoutSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1911F6763C2A16C9A9365C7201194069 /* Build configuration list for PBXNativeTarget "Pods-FLKAutoLayoutSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBB389D509F40DFFE5EB4B299477CB5 /* Debug */,
+				048139BC8CD9F5C440D222D55245CDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2DD7781AB8ADC15F157643216D48AF /* Build configuration list for PBXNativeTarget "Pods-FLKAutoLayoutSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9414F96D547CF98F34111B7CADC247 /* Debug */,
+				600029D42A30353C2665F97A5945803C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28619B4F6544249F8CEF00A669F1D64 /* Build configuration list for PBXNativeTarget "FLKAutoLayoutSwift-FLKAutoLayoutSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F79E58CF41998D619AA5CC34E7F90F2 /* Debug */,
+				C5A75417DA9C7CE6A9F071B54C69717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9C87D8D9421B31DFF13B02436FD201 /* Build configuration list for PBXNativeTarget "FLKAutoLayoutSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45933474A60E1822B326E3D545B05EDE /* Debug */,
+				716A3A4FC0D1EF0852E8D74843FA56FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
